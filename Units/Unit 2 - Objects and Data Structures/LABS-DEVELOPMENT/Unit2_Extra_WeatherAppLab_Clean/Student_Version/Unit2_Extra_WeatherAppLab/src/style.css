@@ -1,0 +1,42 @@
+:root {
+  --hot: #ff6b6b;
+  --mild: #ffd166;
+  --cold: #74b9ff;
+  --bg: #f7f7fb;
+  --ink: #222;
+  --cell-size: 40px;
+  --gap: 4px;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background: var(--bg); color: var(--ink); }
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+h1 { margin: 0 0 0.5rem; font-size: 1.4rem; }
+.controls { margin: 0.5rem 0 1rem; display: flex; gap: 8px; }
+button { padding: 0.6rem 0.9rem; border: none; border-radius: 10px; background: #111; color: #fff; cursor: pointer; }
+button:hover { opacity: 0.9; }
+.stats { margin-bottom: 1rem; font-weight: 600; min-height: 1.5rem; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, var(--cell-size));
+  grid-auto-rows: var(--cell-size);
+  gap: var(--gap);
+  align-items: center;
+  justify-content: start;
+  min-height: calc((var(--cell-size) + var(--gap)) * 10);
+}
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+  background: #e9ecef;
+  user-select: none;
+}
+/* Students will apply these classes in render() */
+.hot { background: var(--hot); color: #fff; }
+.mild { background: var(--mild); color: #111; }
+.cold { background: var(--cold); color: #083b6a; }

@@ -1,0 +1,30 @@
+# macOS system junk
+.DS_Store
+._*
+.Trashes
+.Spotlight-V100
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Node / JavaScript labs
+node_modules/
+dist/
+build/
+.env
+
+# Java compiled files (for CSA)
+*.class
+*.jar
+*.log
+bin/
+target/
+
+# Temporary files
+*.tmp
+*.bak
+*.zip
+
+# Placeholder files
+.gitkeep
