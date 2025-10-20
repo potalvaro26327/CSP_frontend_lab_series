@@ -25,7 +25,6 @@
 /* ===========================================================
    🎟 EXIT TICKET
    1. What new concept or skill did you learn in this lab?
-   2. How did you apply logic or conditionals in your code?
-   3. What challenges did you encounter, and how did you solve them?
-   4. Where else could this programming concept be useful?
+   2. What challenges did you encounter, and how did you solve them?
+   3. Where else could this programming concept be useful?
    =========================================================== */
