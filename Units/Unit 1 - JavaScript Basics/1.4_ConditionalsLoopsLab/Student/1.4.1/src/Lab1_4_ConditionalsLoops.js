@@ -4,6 +4,29 @@
 
 // TODO 1: if..else with age discounts
 
+let age = 15; 
+
+if (age<= 16)
+    console.log("Teen Discount");
+else if (age >= 65)
+    console.log("Senior Discount");
+else
+    console.log("No Discount");
+
+
+let meal = "breakfast";
+if (meal === "breakfast")
+    breakfast()
+else if (meal === "lunch")
+    lunch()
+else(
+    dinner()        
+)
+8
+function breakfast(){
+    console.log("Good morning! WHat would you like for breakfast?");
+    console.log(Country Breakfast: Eggs, Bacon, Toast);;
+
 // TODO 2: Nested if with two numbers
 
 // TODO 3: Switch statement for language greeting
